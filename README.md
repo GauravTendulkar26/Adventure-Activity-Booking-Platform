@@ -4,13 +4,13 @@ Technologies Used:
 The proposed system will be built on the following technologies:
 </div>
 <div>
-Frontend:
-HTML
-•	CSS
-•	JavaScript
+Frontend: <br>
+HTML <br>
+•	CSS <br>
+•	JavaScript <br>
 </div>
-•	Backend:
-Java
-
-•	Database :
+•	Backend: <br>
+Java <br>
+<br>
+•	Database : <br>
 MYSQL
