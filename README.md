@@ -9,7 +9,7 @@ HTML <br>
 •	CSS <br>
 •	JavaScript <br>
 </div>
-•	Backend: <br>
+Backend: <br>
 Java <br>
-•	Database : <br>
+Database : <br>
 MYSQL
