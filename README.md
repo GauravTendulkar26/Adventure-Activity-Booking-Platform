@@ -1,4 +1,4 @@
-# trek_my_show
+# book_my_trek
 <div>
 Technologies Used:
 The proposed system will be built on the following technologies:
