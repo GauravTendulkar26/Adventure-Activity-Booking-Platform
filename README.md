@@ -11,6 +11,5 @@ HTML <br>
 </div>
 •	Backend: <br>
 Java <br>
-<br>
 •	Database : <br>
 MYSQL
