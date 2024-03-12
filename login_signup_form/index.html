@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website with login & signup form</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- navigation bar -->
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">
+        <img src="summarcamp.jpg" alt="logo">
+        <h2>BookMyTrip</h2>
+      </a>
+      <ul class="links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
+      <button class="login-btn">LOG IN</button>
+    </nav>
+  </header>
+  <!-- popup form  -->
+  <div class="blur-bg-overlay"></div>
+  <div class="form-popup">
+    <span class="close-btn">close</span>
+    <div class="form-box login">
+      <div class="form-details">
+        <h2>Welcome Back</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+      </div>
+      <div class="form-content">
+        <h2>LOGIN</h2>
+        <form action="#">
+          <div class="input-field">
+            <input type="text" required>
+            <label for="">Email</label>
+          </div>
+          <div class="input-field">
+            <input type="password" required>
+            <label for="">password</label>
+          </div>
+          <a href="#" class="forget-pass">Forget Password?</a>
+          <button type="submit">Log In</button>
+        </form>
+        <div class="botton-link">
+          Don't have an account?
+          <a href="#" id="signup-link">Signup</a>
+        </div>
+      </div>
+    </div>
+    <div class="form-box signup">
+      <div class="form-details">
+        <h2>Create Account</h2>
+        <p>To become part of our community, please sign up </p>
+      </div>
+      <div class="form-content">
+        <h2>SIGNUP</h2>
+        <form action="#">
+          <div class="input-field">
+            <input type="text" required>
+            <label for="">Enter your email</label>
+          </div>
+          <div class="input-field">
+            <input type="password" required>
+            <label for="">Create password</label>
+          </div>
+          <div class="policy-text">
+            <input type="checkbox" id="policy">
+            <label for="policy">
+              i agree the 
+              <a href="#">Term & Conditions</a>
+            </label>
+          </div>
+          <button type="submit">Sign Up</button>
+        </form>
+        <div class="botton-link">
+          Already have an account?
+          <a href="#" id="login-link">Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
