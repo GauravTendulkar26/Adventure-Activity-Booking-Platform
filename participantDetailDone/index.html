@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Participant Details</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    
+  <div class="navbar">
+      <div class="nav-logo border">
+          <div class="logo" >
+              <h2>ThrillTrek</h2>
+          </div>
+      </div>
+
+      <!-- <div class="nav-address border ">
+     
+          <div class="add-icon">
+              <i class="fa-solid fa-location-dot"></i>
+              <p class="add-second">India</p>
+          </div>
+      </div> -->
+        <!-- location popUp  -->
+<button id="openPopup">
+  <!-- <span class="material-symbols-outlined">distance</span> -->
+<span class="location">Location</span>
+</button>
+
+<div id="popup" class="popup">
+  <span class="close" id="closePopup">&times;</span>
+  <div class="popup-content">
+    <h2 class="select">Select Your City</h2>
+    <div class="cities">
+      <div class="city">Mumbai</div>
+      <div class="city">Nashik</div>
+      <div class="city">pune</div>
+    </div>
+  </div>
+</div>
+
+      <div class="nav-search">
+          
+          </select>
+          <input placeholder="   search Trek locations" class="search-input ">
+          <div class="search-icon" >
+              <i class="fa-solid fa-magnifying-glass-location"></i>
+          </div>
+      </div>
+
+      <div class="nav-signin border">
+          <p><span>Hello,sign in</span></p>
+          <p class="nav-second">Your profile</p>
+      </div>
+
+      <div class="nav-return border">
+          <p><span>Cancellation &</span></p>
+          <p class="nav-second">Booking policy</p>
+      </div>
+
+      <div class="nav-cart border">
+          <i class="fa-solid fa-person-hiking"></i>
+          <p>Cart</p>
+      </div>
+  </div>
+
+  <div class="panel">
+      <div class="panel1 border">
+      </div>
+      <div class="panel-ops">
+          <div class="panel1 deals border">Trending Destinations</div>
+          <div class="panel1 camp border">Camping</div>
+          <div class="panel1 trek border">Treking </div>
+          <div class="panel1 trek border">Scuba Diving</div>
+          <div class="panel1 trek border">Rappelling</div>
+       </div>
+  </div>
+
+</header>
+<body>
+  <div class="container">
+    <h2>Participant details</h2>
+    <div id="participants">
+      <!-- Participant details will be added here dynamically -->
+      <h3>Participant 1 details</h3>
+      <div class="form-group">
+        <label for="gender">Gender *</label>
+        <select id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="fullName">Full name *</label>
+        <input type="text" id="fullName" placeholder="First name">
+        <input type="text" id="lastName" placeholder="Last name">
+      </div>
+      <div class="form-group">
+        <label for="age">Contact Information</label>
+        <input type="text" id="lastName" placeholder="Contact Information">
+      </div>
+    </div>
+    <button id="addParticipantBtn">Add Participant</button>
+    <button id="submitBtn">Submit</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+<footer>
+
+  
+  <div class="foot-panel1">
+   Back to Top
+  </div> 
+  <div class="foot-panel2">
+   <ul>
+      <a href="#"> <p>About Us</p></a>
+       
+   </ul>
+
+   <ul>
+      <a href="#"> <p>Connect us</p></a>
+
+   </ul>
+
+   <ul>
+      <a href="#">  <p>Cancellation Policy</p></a>
+
+   </ul>
+
+   <ul>
+      <a href="#">  <p>Privacy Policy</p></a>
+       
+   </ul>
+   
+  </div>
+  
+
+  <div class="foot-panel3">
+   
+      <h2 class="logo">ThrillTrek</h2>
+   
+  </div>
+  <div class="foot-panel4">
+   <div class="pages">
+       <a>Conditions of Use</a>
+       <a>Privacy Notice</a>
+       <a>Your Ads Privacy Choices</a>
+   </div>
+   <div class="copyright">
+       © 1996-2024, Thrilltrek.com, Inc. or its affiliates
+   </div>
+  </div>
+</footer>
+
+</html>
+
